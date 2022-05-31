@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_iqlas"
+
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="455dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="201dp"
+        android:background="@drawable/shape_gradient_button"
+        android:text="Surah Iqlas"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_fatiha"
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="384dp"
+        android:background="@drawable/shape_text_button"
+        android:text="Surah Fatiha   "
+        android:textAlignment="center"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_nas"
+
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="549dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/shape_border_buttton"
+        android:text="Surah Nas"
+        android:textColor="@color/colorPink"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_falaq"
+
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="294dp"
+        android:background="@drawable/shape_radius_button"
+        android:text="Surah Falaq"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_arrahman"
+
+        android:layout_width="378dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="16dp"
+        android:text="surah  Arrahman"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:text="Surah viewer App "
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+
+    <EditText
+        android:id="@+id/etxt1"
+        android:layout_width="324dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="484dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
